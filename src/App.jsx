@@ -7,6 +7,7 @@ import QRAccess from "./pages/QRAccess";
 import Login from "./pages/Login";
 import Layout from "./components/Layout";
 import AddInventory from "./pages/AddInventory";
+import Profile from "./pages/Profile";
 
 export default function App() {
   return (
@@ -21,6 +22,8 @@ export default function App() {
         <Route path="/reports" element={<Reports />} />
         <Route path="/qr-scanner" element={<QRAccess />} />
         <Route path="/add-inventory" element={<AddInventory />} />
+        <Route path="/profile" element={<Profile />} />
+        
       </Route>
 
       {/* Catch-all redirect */}
